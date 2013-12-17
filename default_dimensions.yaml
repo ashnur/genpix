@@ -1,0 +1,186 @@
+---
+# internet szerint nem jo adott felbontashoz allitani a breakpointokat
+# hanem az adott layouthoz, es tesztelni majd valtoztatni ha kell
+# viszont ebben az esetben ez azt jelenti, hogy majd ha meglesznek a vegleges oldalkepek
+# akkor azoknal kell keresni kozos meretbeli adottsagokat es a szerint uj breakpointokat megadni
+# addig pedig eleg lesz par defaul es random meret
+# s ha meg se akarunk tesztelni akkor ez meg hasznos lehet:
+# http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+# adott kephez meg kell adni:
+#   breakpoint szelesseg (felso hatar) - <max>
+#     crop - [top, left, right, bottom]
+# ha a crop meretek nincsenek megadva akkor teljes kepet meretezzuk at
+
+source_dir: '../client/backrounds/1920x1200/'
+images:
+  felho-mezo.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  valami-gat.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  toparti-fenyo.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  tengerparti-naplemente.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  havasi-viragok.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  kodos-patak-traktornyommal.jpeg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  mezei-fa.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  nyarvegi-kert.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  oszi-szinek.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  oceani-udolok.jpeg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  szin-s-pad.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  kodos-patak-szogesdrottal.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  fenyves.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  ez-valami-skot-videk-lehet.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  erdei-patak.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  erdei-autout.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
+  buzamezo-alulrol.jpg:
+    1920:
+    1366:
+    1280:
+    1024:
+    960:
+    640: [0, 0, 1920, 1200]
+    480: [0, 0, 1920, 1200]
+    320: [0, 0, 1920, 1200]
+
