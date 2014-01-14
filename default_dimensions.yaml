@@ -12,7 +12,7 @@
 #     crop - [top, left, right, bottom]
 # ha a crop meretek nincsenek megadva akkor teljes kepet meretezzuk at
 
-source_dir: '../client/backgrounds/1920x1200/'
+source_dir: '/home/ashnur/work/haz/client/backgrounds/1920x1200/'
 images:
   felho-mezo.jpg:
     1920:
