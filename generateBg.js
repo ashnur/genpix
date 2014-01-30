@@ -31,7 +31,7 @@ void function(){
   var limited_size = deferred.gate(size, 1)
 
   module.exports = function generateBackground(backgroundData){
-    var img = gm(backgroundData.srcPath)
+    var img = gm(backgroundData.srcPath).limit('memory', '32MB')
     var edges = backgroundData.edges
     var maxWidth = backgroundData.maxWidth
     return limited_size(img, edges)(function(dim){

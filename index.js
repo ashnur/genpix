@@ -32,10 +32,13 @@ void function(){
 
   function over(){ console.log('done!') }
 
+
   module.exports = function(outdir, dimensions){
-    return deferred.apply(deferred, normalizeDimensions(outdir, dimensions).map(require('./generateBg.js')))
-            (require('./writeCSS.js').bind(null, destination.bind(null, outdir)))
-            .done(over)
+    return deferred.apply(deferred, normalizeDimensions(outdir, dimensions)
+              .map(deferred.gate(require('./generateBg.js'), 1)))
+                (require('./writeCSS.js')
+                    .bind(null, destination.bind(null, outdir)))
+                .done(over)
   }
 
 
